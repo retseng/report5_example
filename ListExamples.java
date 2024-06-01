@@ -13,6 +13,7 @@ class ListExamples {
       if(sc.checkString(s)) {
         List<String> result = new ArrayList<>();
         result.add(s);
+        System.out.println(s);
         return result;
       }
     }
