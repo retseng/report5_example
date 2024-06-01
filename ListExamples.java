@@ -9,13 +9,13 @@ class ListExamples {
   // the StringChecker returns true, and not the elements that return false, in
   // the same order they appeared in the input list;
   static List<String> filter(List<String> list, StringChecker sc) {
-    for(String s: list) {
-      if(sc.checkString(s)) {
-        List<String> result = new ArrayList<>();
-        result.add(s);
+    List<String> result = new ArrayList<>();
+    for(int i = 0; i<list.size(); i++){
+      if(sc.checkString(list.get(i)){
+        result.add(list.get(i));
       }
     }
-    return result;
+  return result;
   }
 
 
