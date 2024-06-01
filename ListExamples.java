@@ -8,7 +8,7 @@ class ListExamples {
   static List<String> filter(List<String> list, StringChecker sc) {
     List<String> result = new ArrayList<>();
     for(int i = 0; i<list.size(); i++) {
-      if(sc.checkString(list.get(i)) {
+      if(sc.checkString(list.get(i))) {
         result.add(list.get(i);
       }
     }
