@@ -15,7 +15,7 @@ class ListExamples {
         return result;
       }
     }
-    return null;
+    return;
   }
 
 
