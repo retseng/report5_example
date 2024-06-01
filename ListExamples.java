@@ -13,7 +13,7 @@ class ListExamples {
     for(String s: list) {
       if(sc.checkString(s)) {
         result.add(s);
-        return;
+        break;
       }
     }
     return result;
