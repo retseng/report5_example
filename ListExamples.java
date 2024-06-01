@@ -12,6 +12,7 @@ class ListExamples {
     for(String s: list) {
       if(sc.checkString(s)) {
         List<String> result = new ArrayList<>();
+        result.add(s);
         return result;
       }
     }
